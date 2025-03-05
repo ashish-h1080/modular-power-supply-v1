@@ -34,6 +34,30 @@ This modular power supply circuit provides selectable fixed and adjustable volta
    - A 5-pin output header (J2) distributes power and signals.
 
 ![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/lay.png)
+## Footprint Assignments
+| Symbol | Component | Footprint |
+|--------|------------|------------|
+| C1, C3, C5, C7 | 220uF Capacitor | Radial_D8.0mm_P3.50mm |
+| C2, C4, C6, C8 | 0.1uF Capacitor | SMD 0805 |
+| D1, D2 | 1N5822 Schottky Diode | DO-201AD |
+| D3 | 1N4148 Diode | DO-35 SOD27 |
+| J1 | DC Jack | PJ-035DH |
+| J2 | 5-Pin Header | PinHeader_1x05_P2.00mm |
+| J3 | 1-Pin Header | PinHeader_1x01_P2.00mm |
+| L1, L2 | 33uH Inductor | SRR1260-330M |
+| R1 | 680Ω Resistor | Axial |
+| R2 | 1kΩ Resistor | Axial |
+| RT1, RT2 | 1.5kΩ Resistor | SMD 0805 |
+| RV1 | 10kΩ Potentiometer | Piher PC-16 |
+| SW1 | Rotary Switch | PEC12R-3x17F |
+| SW2 | DPDT Switch | TL2230AF140 |
+| TC1 | 470nF Capacitor | SMD 0805 |
+| TC2 | 100nF Capacitor | SMD 0805 |
+| TC3 | 47nF Capacitor | SMD 0805 |
+| TC4 | 10nF Capacitor | SMD 0805 |
+| U1 | LM2596-5V Regulator | TO-263-5 |
+| U2 | LM2596-ADJ Regulator | TO-263-5 |
+| U3 | NE555 Timer | DIP-8 |
 ![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/pcbren.png)
 
 
