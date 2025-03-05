@@ -3,7 +3,8 @@
 ## Overview
 This modular power supply circuit provides selectable fixed and adjustable voltage outputs using LM2596 regulators. It integrates a 555 timer-based pulse generator and supports multiple operational modes via switchable configurations. The design includes high-side switching for improved isolation and safety.
 
-<img src="https://github.com/ashish-h1080/modular-psu/blob/main/img/sch.png" width="700" height="500">
+![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/sch.png)
+
 
 
 ## Features
@@ -34,7 +35,7 @@ This modular power supply circuit provides selectable fixed and adjustable volta
 5. **Output Connections:**
    - A 5-pin output header (J2) distributes power and signals.
 
-![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/lay.png)
+<img src="https://github.com/ashish-h1080/modular-psu/blob/main/img/lay.png" width="500" height="500">
 ![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/pcbren.png)
 ![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/3dmod.png)
 
