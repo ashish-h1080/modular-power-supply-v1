@@ -18,20 +18,7 @@ This modular power supply circuit provides selectable fixed and adjustable volta
   - Selectable frequency via capacitor switching
 
 ## Implementation
-1. **Power Input and Switching:**
-   - A DC power jack (J1) provides the main supply input.
-   - A DPDT switch (SW2) selects between fixed and adjustable voltage regulators.
-2. **Voltage Regulation:**
-   - LM2596-5V (U1) provides a stable 5V output.
-   - LM2596-ADJ (U2) allows user-defined voltage output via RV1 (10k potentiometer).
-3. **Filtering & Protection:**
-   - Capacitors (C1-C8) and inductors (L1, L2) enhance stability and noise reduction.
-   - Schottky diodes (D1, D2) protect against reverse voltage.
-4. **Pulse Generator:**
-   - 555 timer (U3) generates clock pulses with frequency controlled by capacitors (TC1-TC4) and resistors (RT1, RT2).
-   - Output is accessible through a single-pin connector (J3).
-5. **Output Connections:**
-   - A 5-pin output header (J2) distributes power and signals.
+The modular power supply system is designed for versatility and stability, incorporating key components for power input, regulation, filtering, and additional functionalities. A DC power jack (J1) serves as the main input source, while a DPDT switch (SW2) allows seamless selection between a fixed and an adjustable voltage regulator. The LM2596-5V (U1) ensures a stable 5V output, whereas the LM2596-ADJ (U2), controlled via a 10k potentiometer (RV1), provides a user-defined adjustable voltage. To enhance performance, capacitors (C1-C8) and inductors (L1, L2) are implemented for stability and noise reduction, while Schottky diodes (D1, D2) safeguard the system against reverse voltage. Additionally, a 555 timer (U3) functions as a pulse generator, with its frequency adjustable through capacitors (TC1-TC4) and resistors (RT1, RT2). The generated clock pulses are accessible via a single-pin connector (J3), offering expanded utility for various applications. Finally, a 5-pin output header (J2) efficiently distributes power and signals, ensuring easy connectivity for external circuits.
      
 ![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/lay.png)
 ![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/pcbren.png)
