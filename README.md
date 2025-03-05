@@ -1,4 +1,4 @@
-# Modular Power Supply with Pulse Generator
+# Modular Power Supply - V1
 
 ## Overview
 This modular power supply circuit provides selectable fixed and adjustable voltage outputs using LM2596 regulators. It integrates a 555 timer-based pulse generator and supports multiple operational modes via switchable configurations. The design includes high-side switching for improved isolation and safety.
