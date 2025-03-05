@@ -12,7 +12,7 @@ This modular power supply circuit provides selectable fixed and adjustable volta
 
 - **High-Side DPDT Switching:**
   - Ensures proper isolation when switching between voltage sources
-  - 
+ 
 - **Integrated Pulse Generator:**
   - 555 timer-based circuit generates clock pulses
   - Selectable frequency via capacitor switching
