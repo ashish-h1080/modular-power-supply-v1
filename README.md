@@ -58,10 +58,10 @@ This modular power supply circuit provides selectable fixed and adjustable volta
 | U1 | LM2596-5V Regulator | TO-263-5 |
 | U2 | LM2596-ADJ Regulator | TO-263-5 |
 | U3 | NE555 Timer | DIP-8 |
+
+
+
 ![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/pcbren.png)
-
-
-
 ![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/3dmod.png)
 
 ## Future Enhancements
