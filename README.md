@@ -33,7 +33,6 @@ This modular power supply circuit provides selectable fixed and adjustable volta
    - Schottky diodes (D1, D2) protect against reverse voltage.
 4. **Pulse Generator:**
    - 555 timer (U3) generates clock pulses with frequency controlled by capacitors (TC1-TC4) and resistors (RT1, RT2).
-   - Output is accessible through a single-pin connector (J3).
 5. **Output Connections:**
    - A 5-pin output header (J2) distributes power.
    - A single pin output header (J3) provides clock signal.
