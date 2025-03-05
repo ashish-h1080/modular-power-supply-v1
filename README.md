@@ -33,7 +33,7 @@ This modular power supply circuit provides selectable fixed and adjustable volta
    - Output is accessible through a single-pin connector (J3).
 5. **Output Connections:**
    - A 5-pin output header (J2) distributes power and signals.
-   - 
+
 ## Future Enhancements
 - **Onboard voltage meter (without ADC-based implementation)**
 - **Additional signal processing circuits (e.g., sine wave generator, filters, amplifiers)**
