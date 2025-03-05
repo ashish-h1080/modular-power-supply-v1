@@ -34,7 +34,7 @@ This modular power supply circuit provides selectable fixed and adjustable volta
    - Output is accessible through a single-pin connector (J3).
 5. **Output Connections:**
    - A 5-pin output header (J2) distributes power and signals.
-   - 
+     
 ![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/lay.png)
 ![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/pcbren.png)
 ![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/3dmod.png)
