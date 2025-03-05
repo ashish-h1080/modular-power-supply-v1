@@ -6,18 +6,18 @@ This modular power supply circuit provides selectable fixed and adjustable volta
 ![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/sch.png)
 
 ## Features
-- **Switchable Voltage Outputs:**
+1. **Switchable Voltage Outputs:**
   - Fixed 5V regulated output (LM2596-5V)
   - Adjustable output up to 12V (LM2596-ADJ)
 
-- **High-Side DPDT Switching:**
+2. **High-Side DPDT Switching:**
   - Ensures proper isolation when switching between voltage sources
  
-- **Integrated Pulse Generator:**
+3. **Integrated Pulse Generator:**
   - 555 timer-based circuit generates clock pulses
   - Selectable frequency via capacitor switching
 
-## IMplementation
+## Implementation
 1. **Power Input and Switching:**
    - A DC power jack (J1) provides the main supply input.
    - A DPDT switch (SW2) selects between fixed and adjustable voltage regulators.
