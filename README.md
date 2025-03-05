@@ -36,6 +36,8 @@ This modular power supply circuit provides selectable fixed and adjustable volta
    - A 5-pin output header (J2) distributes power.
    - A single pin output header (J3) provides clock signal.
 
+![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/3dmod.png)
+![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/pcbren.png)
 
 ## Future Enhancements
 - **Onboard voltage meter (without ADC-based implementation)**
