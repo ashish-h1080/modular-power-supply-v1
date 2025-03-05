@@ -3,20 +3,19 @@
 ## Overview
 This modular power supply circuit provides selectable fixed and adjustable voltage outputs using LM2596 regulators. It integrates a 555 timer-based pulse generator and supports multiple operational modes via switchable configurations. The design includes high-side switching for improved isolation and safety.
 
-## Features & Implementation Details
+![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/sch.png)
+
+## Features
 - **Switchable Voltage Outputs:**
   - Fixed 5V regulated output (LM2596-5V)
   - Adjustable output up to 12V (LM2596-ADJ)
-  - DPDT switch for selecting between the two regulators
-- **High-Side Switching:**
+
+- **High-Side DPDT Switching:**
   - Ensures proper isolation when switching between voltage sources
+  - 
 - **Integrated Pulse Generator:**
   - 555 timer-based circuit generates clock pulses
   - Selectable frequency via capacitor switching
-- **Robust Filtering & Regulation:**
-  - Input and output capacitors for stability
-  - Schottky diodes for reverse current protection
-  - Inductor-based switching regulation for efficiency
 
 ## Circuit Breakdown
 1. **Power Input and Switching:**
@@ -33,6 +32,9 @@ This modular power supply circuit provides selectable fixed and adjustable volta
    - Output is accessible through a single-pin connector (J3).
 5. **Output Connections:**
    - A 5-pin output header (J2) distributes power and signals.
+
+![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/lay.png)
+![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/pcbren.png)
 
 ## Footprint Assignments
 | Symbol | Component | Footprint |
@@ -58,6 +60,8 @@ This modular power supply circuit provides selectable fixed and adjustable volta
 | U1 | LM2596-5V Regulator | TO-263-5 |
 | U2 | LM2596-ADJ Regulator | TO-263-5 |
 | U3 | NE555 Timer | DIP-8 |
+
+![alt text](https://github.com/ashish-h1080/modular-psu/blob/main/img/3dmod.png)
 
 ## Future Enhancements
 - **Onboard voltage meter**
