@@ -4,12 +4,11 @@
 This modular power supply circuit provides selectable fixed and adjustable voltage outputs using LM2596 regulators. It integrates a 555 timer-based pulse generator and supports multiple operational modes via switchable configurations. The design includes high-side switching for improved isolation and safety.
 
 ## Features
-- **Switchable Voltage Outputs:**
+- **Switchable Voltage Outputs (with high side switching):**
   - Fixed 5V regulated output (LM2596-5V)
   - Adjustable output up to 12V (LM2596-ADJ)
   - DPDT switch for selecting between the two regulators
-- **High-Side Switching:**
-  - Ensures proper isolation when switching between voltage sources
+
 - **Integrated Pulse Generator:**
   - 555 timer-based circuit generates clock pulses
   - Selectable frequency via capacitor switching
@@ -17,10 +16,7 @@ This modular power supply circuit provides selectable fixed and adjustable volta
   - Input and output capacitors for stability
   - Schottky diodes for reverse current protection
   - Inductor-based switching regulation for efficiency
-- **Expansion Support:**
-  - Additional clock pulse generator
-  - 20-pin IC connector for modular compatibility
-  - Controllable op-amp-based filters or oscillators
+
 
 ## Implementation Details
 1. **Power Input and Switching:**
@@ -37,10 +33,7 @@ This modular power supply circuit provides selectable fixed and adjustable volta
    - Output is accessible through a single-pin connector (J3).
 5. **Output Connections:**
    - A 5-pin output header (J2) distributes power and signals.
-
-## Footprint Assignments
-Refer to the second image for detailed footprint assignments of all components.
-
+   - 
 ## Future Enhancements
 - **Onboard voltage meter (without ADC-based implementation)**
 - **Additional signal processing circuits (e.g., sine wave generator, filters, amplifiers)**
