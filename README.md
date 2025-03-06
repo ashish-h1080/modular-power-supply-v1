@@ -1,6 +1,8 @@
 # Modular Power Supply - V1
 This modular power supply circuit provides selectable fixed and adjustable voltage outputs using LM2596 regulators. It integrates a 555 timer-based pulse generator and supports multiple operational modes via switchable configurations. The design includes high-side switching for improved isolation and safety.
 
+![alt text](https://github.com/ashish-h1080/modular-power-supply-v1/blob/main/img/sch.png)
+
 
 ## Features
 This modular power supply system offers a range of features designed for flexibility and reliability. It provides switchable voltage outputs, including a fixed 5V regulated supply using the LM2596-5V and an adjustable output of up to 12V via the LM2596-ADJ, controlled by a potentiometer. To ensure proper isolation and seamless switching between these voltage sources, a high-side DPDT switch is integrated into the design. Additionally, the system includes an integrated pulse generator, utilizing a 555 timer circuit to produce clock pulses. The pulse frequency can be adjusted by selecting different capacitors, making the system adaptable for various applications requiring precise timing signals.
